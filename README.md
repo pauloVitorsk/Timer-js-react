@@ -7,4 +7,4 @@
 # :hammer: Funcionalidades do projeto
 
 - `Funcionalidade 1`: Contador com botões de "Incrementar" e "Decrementar".
-- `Funcionalidade 2`: Cronometro com botões "Start","Pause"e"Parar".
+- `Funcionalidade 2`: Cronometro para ter um controle maior de seu tempo, com botões "Start","Pause"e"Parar".
