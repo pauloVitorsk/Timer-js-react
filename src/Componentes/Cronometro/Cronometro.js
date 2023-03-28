@@ -40,6 +40,8 @@ function twoNum(num) {
         sec=0;
         min=0;
         hour=0;
+        clearInterval(interval)
+        document.getElementById("cont").innerText= ("00"+":"+"00"+":"+"00")
     }
 
     return(
@@ -47,7 +49,7 @@ function twoNum(num) {
             <h1>CRONOMETRO</h1>
             <h2 id="cont" className="number">00 :00 :00</h2>
             <div className="Btn-conteiner">
-                <button className="Start" onClick={Start}>Start</button>
+                <button className="Start" onClick={Start}>START</button>
             <button className="Pause" onClick={Pause}>PAUSE</button>
             <button className="Stop" onClick={Stop}>STOP</button>
             </div>
